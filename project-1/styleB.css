@@ -1,0 +1,26 @@
+html {
+  height: 100%;
+}
+
+div {
+  display: inline-block;
+  width: 80px;
+  height: 130px;
+  border-left: dotted 10px #d0d0ff;
+  padding: 10px;
+  margin: 10px;
+  font: 40px Tahoma;
+  background-color: #eeeff2;
+}
+
+div:nth-last-child(1) {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  margin-right: 0px;
+}
+div:hover {
+  background-color: yellow;
+  color: goldenrod;
+  cursor: pointer;
+}

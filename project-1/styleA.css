@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+div {
+  width: 100px;
+  height: 100px;
+  font: 40px Tahoma;
+  text-align: center;
+  border-top: #687291 2px solid;
+  margin-top: 4px;
+}
+.spe {
+  border: #000000 solid 4px;
+  background-color: #eeeff2;
+}
+.t1 {
+  background-color: #dfe1e7;
+}
+.t2 {
+  background-color: #eeeff2;
+}
